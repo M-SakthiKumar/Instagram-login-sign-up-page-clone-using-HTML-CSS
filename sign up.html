@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up.Instagram</title>
+    <link rel="icon" href="./assets/logo.jfif">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        body {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .main {
+            width: 400px;
+            height: 600px;
+            text-align: center;
+            background-color: #fff;
+            font-family: sans-serif;
+            color: #737373;
+            border: 1px solid #696767;
+            margin: 50px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 1px;
+        }
+
+        .header {
+
+            width: 350px;
+            height: 50px;
+            background-color: #fff;
+            margin: auto;
+            margin-bottom: 130px;
+            padding-top: 20px;
+
+        }
+
+        .form {
+            margin: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+
+            margin-top: 8px;
+            padding: 3px 7px;
+            width: 300px;
+            height: 30px;
+            background-color: rgb(250, 250, 250);
+            border: 1px solid #737373;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 15px;
+            background-color: rgb(14, 132, 230);
+            color: white;
+            width: 300px;
+            height: 30px;
+            padding: 5px 15px;
+            border: 0;
+            border-radius: 9px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        .or {
+            margin-top: 5px;
+            padding: 3px 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 330px;
+            height: 30px;
+            /* font-weight: 600; */
+            word-spacing: 10px;
+        }
+        .face{
+            margin: 20px;
+        }
+        .face>p>a {
+            font-weight: 600;
+            font-size: 15px;
+            color: #385185;
+            text-decoration: none;
+
+        }
+
+        .Terms {
+            margin: 10px;
+
+        }
+
+        .Terms>p>a {
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            color: #385185;
+        }
+
+        .sign {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 50px;
+            border: 1px solid #696767;
+            border-radius: 2px;
+            padding: 3px 7px;
+
+        }
+
+        .sign>p>a {
+            font-family: sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            color: rgb(14, 132, 230);
+        }
+
+        .Terms>button {
+            margin-top: 25px;
+        }
+
+        .google {
+            width: 350px;
+            height: 100px;
+            font-family: sans-serif;
+            font-weight: 500;
+            color: black;
+            text-align: center;
+            margin: 15px;
+
+
+        }
+
+        .image {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .footer {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+
+            word-spacing: 30px;
+            margin: 30px;
+
+        }
+
+        footer>a {
+
+            text-decoration: none;
+            color: #696767;
+            word-spacing: 5px;
+        }
+
+        .drop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            word-spacing: normal;
+        }
+
+        .drop>form>select {
+            border: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="./assets/text logo.png" width="300px" height="50px">
+            <h3>Sign up to see photos and videos from your friends.</h3>
+            <button><img src="./assets/fb.png" width="20px" height="15px"> Login in with Facebook</button>
+            <div class="or">
+                <p><sup>__________________</sup> OR <sup>__________________</sup></p>
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <label>
+                    <input type="tel email" placeholder="Mobile Number, Email" required>
+                </label>
+                <label>
+                    <input type="text" placeholder="Full Name" required>
+                </label>
+                <label>
+                    <input type="text" placeholder="Username" required>
+                </label>
+                <label>
+                    <input type="password" placeholder="password" required>
+                </label>
+                <div class="face">
+                    <p>People who use our service may have uploaded your contact information to Instagram <a
+                            href="#">Learn
+                            More</a></p>
+                </div>
+                <div class="Terms">
+                    <p>By signing up, you agree to our <a href="#">Terms</a>,<a href="#">Privacy policy</a> and <a
+                            href="#">Cookies Policy</a></p>
+                    <button>Sign up</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+    <div class="sign">
+        <p>Don't have an account? <a href="./index.html"> Log in</a></p>
+    </div>
+    <div class="google">
+        <p>Get the app.</p> <br>
+        <div class="image">
+            <img src="./assets/get it on google play.png" width="200px" height="50px">
+            <img src="./assets/get it from ms.png" width="200px" height="50px">
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">Contact Uploading & non-users</a>
+            <a href="#">Meta Verified</a>
+
+        </footer>
+        <div class="drop">
+            <form>
+
+                <select class="LAN" name="lanauage" id="lanauage">
+                    <option value="volvo"> English</option>
+                    <option value="saab">தமிழ்</option>
+                    <option value="saab">हिंदी</option>
+
+
+                </select>
+
+            </form>
+            <p> © 2024 Instagram from Meta</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
